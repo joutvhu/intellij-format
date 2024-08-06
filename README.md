@@ -37,10 +37,10 @@ name: IntelliJ Reformat Code
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: [ develop ]
 
 jobs:
-  formatting:
+  reformat:
     runs-on: ubuntu-latest
     permissions:
       contents: write

@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [[ $# -ne 5 ]]; then
   echo 'Exactly five parameters required: path, mark, settings, message, verify'
   exit 1
@@ -10,6 +9,12 @@ mark=$2
 settings=$3
 message=$4
 verify=$5
+
+mkdir -p "/root/.config/JetBrains/IntelliJIdea2020.3/eval"
+cd "/root/.config/JetBrains/IntelliJIdea2020.3/eval"
+printf %x $(echo -$(($(date +%s%N)/1000000))) > evaluation-date.txt
+xxd -r -p evaluation-date.txt idea203.evaluation.key
+rm evaluation-date.txt
 
 options="-r ."
 

@@ -24,9 +24,9 @@ var x = 1, y = 2,
  */
 var myLink = {img: 'btn.gif'},
   local = true,
-     initial = -1;
-  const width = 400
-let   height = 300
+  initial = -1;
+const width = 400
+let height = 300
 
 var foo = {
   numbers: [
@@ -47,7 +47,7 @@ var foo = {
   },
 // fBar : function (x,y);
   fOne: function (a, b, c, d, e, f, g, h) {
-       var x = a + b + c + d + e + f + g + h;
+    var x = a + b + c + d + e + f + g + h;
     fTwo(a, b, c, fThree(d, e, f, g, h));
     var z = a == 'Some string' ? 'yes' : 'no';
     z = a == 10 ? 'yes' : 'no';
@@ -94,17 +94,17 @@ var foo = {
    * @param {string} b Parameter B description. Can extend beyond the right margin.
    */
   fTwo: function (a, b, c, d) {
-          foo(a, b, c, d);           // Line comment which can be wrapped if long.
+    foo(a, b, c, d);           // Line comment which can be wrapped if long.
     if (true)
       return c;
     if (a == 'one' && (b == 'two' || c == 'three')) {
       return a + b + c + d;
-     } else return
+    } else return
     strD;
     if (a == 'one') {
       return 1;
     } else if (a == 'two') {
-       return 2;
+      return 2;
     }
     var number = -10;
     while (x < 0) {
@@ -113,13 +113,13 @@ var foo = {
     do {
       number = number + 1;
     } while (number < 10);
-      return d;
+    return d;
   },
 
-      fThree: function ({
-                       strA,
-                       strB,
-                       strC,
+  fThree: function ({
+                      strA,
+                      strB,
+                      strC,
                       strD
                     }, strE) {
     var number = prompt('Enter a number:', 0);
@@ -128,13 +128,13 @@ var foo = {
         alert('Zero');
         break;
       case 1:
-        alert  ('One');
-           break;
+        alert('One');
+        break;
     }
-     try {
+    try {
       a[2] = 10;
     } catch (e) {
-        alert('Failure: ' + e.message);
+      alert('Failure: ' + e.message);
     }
     return strA + strB + strC + strD + strE;
   }

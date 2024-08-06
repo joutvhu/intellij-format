@@ -44,34 +44,34 @@ ij_properties_spaces_around_key_value_delimiter = false
 
 [.editorconfig]
 
-[{*.ant,*.fxml,*.jhm,*.jnlp,*.jrxml,*.rng,*.tld,*.wsdl,*.xml,*.xsd,*.xsl,*.xslt,*.xul}]
+[{*.ant, *.fxml, *.jhm, *.jnlp, *.jrxml, *.rng, *.tld, *.wsdl, *.xml, *.xsd, *.xsl, *.xslt, *.xul}]
 indent_size = 2
 tab_width = 2
 ij_xml_keep_blank_lines = 1
 
-[{*.bash,*.sh,*.zsh}]
+[{*.bash, *.sh, *.zsh}]
 indent_size = 2
 tab_width = 2
 
-[{*.c,*.c++,*.cc,*.cp,*.cpp,*.cu,*.cuh,*.cxx,*.h,*.h++,*.hh,*.hp,*.hpp,*.hxx,*.i,*.icc,*.ii,*.inl,*.ino,*.ipp,*.m,*.mm,*.pch,*.tcc,*.tpp}]
+[{*.c, *.c++, *.cc, *.cp, *.cpp, *.cu, *.cuh, *.cxx, *.h, *.h++, *.hh, *.hp, *.hpp, *.hxx, *.i, *.icc, *.ii, *.inl, *.ino, *.ipp, *.m, *.mm, *.pch, *.tcc, *.tpp}]
 indent_size = 4
 tab_width = 4
 
-[{*.gant,*.gradle,*.groovy,*.gy}]
+[{*.gant, *.gradle, *.groovy, *.gy}]
 indent_size = 4
 tab_width = 4
 ij_groovy_keep_blank_lines_before_right_brace = 1
 ij_groovy_keep_blank_lines_in_code = 1
 ij_groovy_keep_blank_lines_in_declarations = 1
 
-[{*.gradle.kts,*.kt,*.kts,*.main.kts}]
+[{*.gradle.kts, *.kt, *.kts, *.main.kts}]
 indent_size = 4
 tab_width = 4
 ij_kotlin_keep_blank_lines_before_right_brace = 1
 ij_kotlin_keep_blank_lines_in_code = 1
 ij_kotlin_keep_blank_lines_in_declarations = 1
 
-[{*.htm,*.html,*.sht,*.shtm,*.shtml}]
+[{*.htm, *.html, *.sht, *.shtm, *.shtml}]
 indent_size = 2
 tab_width = 2
 ij_html_keep_blank_lines = 1
@@ -80,11 +80,11 @@ ij_html_quote_style = double
 [*.haml]
 indent_size = 2
 
-[{*.markdown,*.md}]
+[{*.markdown, *.md}]
 max_line_length = off
 trim_trailing_whitespace = false
 
-[{*.yaml,*.yml}]
+[{*.yaml, *.yml}]
 indent_size = 2
 tab_width = 2
 
@@ -112,7 +112,7 @@ ij_stylus_keep_blank_lines_in_code = 1
 indent_size = 2
 tab_width = 2
 
-[{*.ats,*.ts,*.tsx,*.util}]
+[{*.ats, *.ts, *.tsx, *.util}]
 quote_type = single
 indent_size = 2
 tab_width = 2
@@ -122,7 +122,7 @@ ij_typescript_import_sort_module_name = true
 ij_typescript_keep_blank_lines_in_code = 1
 ij_typescript_use_double_quotes = false
 
-[{*.cjs,*.js}]
+[{*.cjs, *.js}]
 quote_type = single
 indent_size = 2
 tab_width = 2
@@ -132,14 +132,14 @@ ij_javascript_import_sort_module_name = true
 ij_javascript_keep_blank_lines_in_code = 1
 ij_javascript_use_double_quotes = false
 
-[{*.cjsx,*.coffee}]
+[{*.cjsx, *.coffee}]
 indent_size = 2
 tab_width = 2
 ij_coffeescript_import_sort_members = true
 ij_coffeescript_import_sort_module_name = false
 ij_coffeescript_keep_blank_lines_in_code = 1
 
-[{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.prettierrc,.stylelintrc,bowerrc,jest.config}]
+[{*.har, *.jsb2, *.jsb3, *.json, .babelrc, .eslintrc, .prettierrc, .stylelintrc, bowerrc, jest.config}]
 indent_size = 2
 tab_width = 2
 ij_json_keep_blank_lines_in_code = 1
@@ -155,6 +155,6 @@ indent_size = 2
 indent_size = 2
 tab_width = 2
 
-[{*.pb,*.textproto}]
+[{*.pb, *.textproto}]
 indent_size = 2
 tab_width = 2

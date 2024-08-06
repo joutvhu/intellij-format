@@ -1,0 +1,44 @@
+## OS X ##
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+.idea_modules
+.log
+.build
+*.build
+*.iws
+*.iml
+*.ipr
+/out/
+/logs/
+
+## Eclipse ##
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+.settings
+.settings/
+build/
+bin/
+nbactions.xml
+nb-configuration.xml
+
+## Visual Studio Code ##
+.vscode/
+.code-workspace

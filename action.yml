@@ -1,0 +1,37 @@
+name: IntelliJ Format
+description: GitHub Action for code formatting using IntelliJ IDEA
+author: Giao Ho
+inputs:
+  path:
+    description: Path to project directory.
+    required: false
+    default: '.'
+  mask:
+    description: Specify a comma-separated list of file masks that define the files to be processed.
+    required: false
+  settings:
+    description: Path to IntelliJ IDEA code style settings .xml file.
+    required: false
+  message:
+    description: The commit message to use when committing.
+    required: false
+    default: 'Reformat code with IntelliJ'
+  verify:
+    description: If true, the action will fail if any file changed.
+    required: false
+    default: 'false'
+outputs:
+  changed:
+    description: Zero if none changed, greater if at least one file changed.
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.path }}
+    - ${{ inputs.mask }}
+    - ${{ inputs.settings }}
+    - ${{ inputs.message }}
+    - ${{ inputs.verify }}
+branding:
+  icon: feather
+  color: gray-dark

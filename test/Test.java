@@ -10,35 +10,35 @@ import java.util.Vector;
 
 public class Test {
 
-    public class Foo {
-        private int field1;
-        private int field2;
+public class Foo {
+    private int field1;
+    private int field2;
 
-        {
-            field1 = 2;
-        }
-
-        public void foo1() {
-            new Runnable() {
-                public void run() {
-                }
-            };
-        }
-
-        public class InnerClass {
-        }
+     {
+                       field1 = 2;
     }
 
-    class AnotherClass {
+    public void foo1() {
+        new Runnable() {
+            public void run() {
+            }
+        };
     }
 
-    interface TestInterface {
-        int MAX = 10;
-        int MIN = 1;
+    public class InnerClass {
+          }
+}
 
-        void method1();
+class AnotherClass {
+}
 
-        void method2();
-    }
+interface TestInterface {
+    int MAX = 10;
+    int MIN = 1;
+
+    void method1();
+
+                  void method2();
+}
 
 }
